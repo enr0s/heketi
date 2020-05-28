@@ -59,7 +59,7 @@ func init() {
 		"Filename to contain list of objects")
 	setupHeketiStorageCommand.Flags().StringVar(&HeketiStorageJobContainer,
 		"image",
-		"heketi/heketi:dev",
+		"enr0s/heketi:arm",
 		"container image to run this job")
 	setupHeketiStorageCommand.Flags().StringVar(&heketiStorageDurability,
 		"durability",
